@@ -47,49 +47,64 @@ video.zoom {
   transform: scale(1.5);
 }
 
-.zoom-extremely-slow {
+.zoom.zoom-extremely-slow {
   display: inline-block;
   -webkit-transition: -webkit-transform 5s;
-  -moz-transition: -webkit-transform transform 5s;
-  transition: -webkit-transform transform 5s;
+  -moz-transition: -moz-transform transform 5s;
+  transition: transform transform 5s;
 }
 
-.zoom-very-slow {
+.zoom.zoom-very-slow {
   display: inline-block;
   -webkit-transition: -webkit-transform 2s;
-  -moz-transition: -webkit-transform transform 2s;
-  transition: -webkit-transform transform 2s;
+  -moz-transition: -moz-transform transform 2s;
+  transition: transform transform 2s;
 }
 
-.zoom-slow {
+.zoom.zoom-slow {
   display: inline-block;
   -webkit-transition: -webkit-transform 1s;
-  -moz-transition: -webkit-transform transform 1s;
-  transition: -webkit-transform transform 1s;
+  -moz-transition: -moz-transform transform 1s;
+  transition: transform transform 1s;
 }
 
-.zoom-medium {
+.zoom.zoom-medium {
   display: inline-block;
   -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  transition: transform 0.5s;
 }
 
-.zoom-fast {
+.zoom.zoom-fast {
   display: inline-block;
   -webkit-transition: -webkit-transform 0.1s;
-  -moz-transition: -webkit-transform 0.1s;
-  transition: -webkit-transform 0.1s;
+  -moz-transition: -moz-transform 0.1s;
+  transition: transform 0.1s;
 }
 
-.zoom-instant {
+.zoom.zoom-instant {
   display: inline-block;
+  -webkit-transition: -webkit-transform 0s;
+  -moz-transition: -moz-transform 0s;
+  transition: transform 0s;
 }
 
 .zoom-50:hover {
   -webkit-transform: scale(0.5);
   -moz-transform: scale(0.5);
   transform: scale(0.5);
+}
+
+.zoom-75:hover {
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  transform: scale(0.75);
+}
+
+.zoom-125:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .zoom-150:hover {
