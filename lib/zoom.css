@@ -1,0 +1,123 @@
+.zoom {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  transition: transform 1s;
+}
+
+address.zoom,
+article.zoom,
+aside.zoom,
+audio.zoom,
+blockquote.zoom,
+canvas.zoom,
+dd.zoom,
+div.zoom,
+dl.zoom,
+fieldset.zoom,
+figcaption.zoom,
+figure.zoom,
+footer.zoom,
+form.zoom,
+h1.zoom,
+h2.zoom,
+h3.zoom,
+h4.zoom,
+h5.zoom,
+h6.zoom,
+header.zoom,
+hgroup.zoom,
+hr.zoom,
+noscript.zoom,
+ol.zoom,
+output.zoom,
+p.zoom,
+pre.zoom,
+section.zoom,
+table.zoom,
+tfoot.zoom,
+ul.zoom,
+video.zoom {
+  display: block;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.zoom-extremely-slow {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 5s;
+  -moz-transition: -webkit-transform transform 5s;
+  transition: -webkit-transform transform 5s;
+}
+
+.zoom-very-slow {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -webkit-transform transform 2s;
+  transition: -webkit-transform transform 2s;
+}
+
+.zoom-slow {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -webkit-transform transform 1s;
+  transition: -webkit-transform transform 1s;
+}
+
+.zoom-medium {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+}
+
+.zoom-fast {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.1s;
+  -moz-transition: -webkit-transform 0.1s;
+  transition: -webkit-transform 0.1s;
+}
+
+.zoom-instant {
+  display: inline-block;
+}
+
+.zoom-50:hover {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.zoom-150:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.zoom-200:hover {
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  transform: scale(2);
+}
+
+.zoom-250:hover {
+  -webkit-transform: scale(2.5);
+  -moz-transform: scale(2.5);
+  transform: scale(2.5);
+}
+
+.zoom-500:hover {
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  transform: scale(5);
+}
+
+.zoom-1000:hover {
+  -webkit-transform: scale(10);
+  -moz-transform: scale(10);
+  transform: scale(10);
+}
